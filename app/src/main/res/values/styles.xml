@@ -1,10 +1,24 @@
 <resources>
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+    <style name="SplashTheme" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorAccent">@color/accentcolor</item>
+    </style>
+
+    <style name="InputStyle" parent="TextAppearance.AppCompat">
+        <item name="android:layout_marginStart">@dimen/commonMargin</item>
+        <item name="android:layout_marginEnd">@dimen/commonMargin</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textColorHint">@color/whiteColor</item>
+        <item name="startIconTint">@color/whiteColor</item>
+        <item name="colorControlHighlight">@color/whiteColor</item>
     </style>
 
 </resources>

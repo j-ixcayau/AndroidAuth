@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="commonMargin">8dp</dimen>
+    <dimen name="horizontalPageMargin">16dp</dimen>
+    <dimen name="horizontalMargin">8dp</dimen>
+
+</resources>
